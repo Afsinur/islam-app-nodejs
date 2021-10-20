@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Islamic App | Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/progressBAR_FTC.js"></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <!-- http://127.0.0.1:5500/ -->
+    <div class="loader_"></div>
+
+    <div class="copyDivTextContainer">
+      <div class="copyDivText">
+        <div class="dontHide">
+          <h2>
+            Copy
+            <span class="copyWhat"></span>
+          </h2>
+
+          <div>
+            <div class="translateCopy">
+              <div class="copyType">
+                <div>
+                  Copy all
+                  <span class="copyWhat"></span>
+                </div>
+
+                <div>
+                  Copy this
+                  <span class="copyWhat"></span>
+                </div>
+              </div>
+
+              <div>
+                <h3>Preview</h3>
+
+                <div class="previewOn_1"></div>
+
+                <div class="previewOn">
+                  Something went wrong! please try again.
+                </div>
+
+                <div class="CopyPreviewedOne">Copy</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="enlarge_preview">
+            <div></div>
+
+            <button>ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navBar">
+      <div class="top_">
+        <span>Islam-app</span>
+      </div>
+
+      <div class="selections_"></div>
+    </div>
+
+    <div class="triggerSetings">
+      <img width="35" src="icons/settings.png" alt="settings" />
+    </div>
+
+    <div class="settingsDiv">
+      <div class="Stopics">
+        <h3 class="spanEngFont" style="color: #404040; margin-bottom: 10px">
+          Settings
+        </h3>
+
+        <p>
+          <label for="vol" class="spanEngFont"
+            >Load (between 0 and 50) items:</label
+          >
+          <input type="range" id="vol" name="vol" min="0" max="50" />
+          <span class="VOL spanEngFont"></span>
+        </p>
+
+        <p>
+          <label for="mode_" class="spanEngFont">Islam-app mode:</label><br />
+          <select
+            class="spanEngFont"
+            style="border-radius: 5px; padding: 5px"
+            name="mo_de"
+            id="mode_"
+          >
+            <option value="0">Normal</option>
+            <option value="1">Dark</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="mode_1" class="spanEngFont">Serial mode:</label><br />
+          <select
+            class="spanEngFont"
+            style="border-radius: 5px; padding: 5px"
+            name="mo_de_1"
+            id="mode_1"
+          >
+            <option value="1">ASC</option>
+            <option value="0">DESC</option>
+          </select>
+        </p>
+
+        <p>
+          <span class="spanEngFont">Read Quran only:</span><br />
+
+          <input type="checkbox" id="ARB" name="arb" value="arb" checked />
+          <label class="spanEngFont" for="ARB">Arabic</label><br />
+
+          <input type="checkbox" id="BAN" name="ban" value="ban" checked />
+          <label class="spanEngFont" for="BAN">Bangla</label><br />
+
+          <input type="checkbox" id="ENG" name="eng" value="eng" checked />
+          <label class="spanEngFont" for="ENG">English</label><br />
+        </p>
+      </div>
+    </div>
+
+    <div class="app"></div>
+  </body>
+</html>
